@@ -10,6 +10,7 @@
         <module name="app-domain-model" />
         <module name="config-service" />
         <module name="project-service (2)" />
+        <module name="project-service (1)" />
         <module name="gateway-service" />
         <module name="app-client-management" />
         <module name="task-service" />
@@ -20,7 +21,6 @@
     <bytecodeTargetLevel>
       <module name="app-client-management (1)" target="11" />
       <module name="project-service" target="11" />
-      <module name="project-service (1)" target="11" />
       <module name="user-service (1)" target="11" />
     </bytecodeTargetLevel>
   </component>
