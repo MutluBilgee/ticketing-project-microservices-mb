@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app-domain-model" />
+        <module name="config-service" />
+        <module name="project-service (2)" />
         <module name="project-service (1)" />
         <module name="gateway-service" />
         <module name="app-client-management" />
@@ -19,7 +21,6 @@
     <bytecodeTargetLevel>
       <module name="app-client-management (1)" target="11" />
       <module name="project-service" target="11" />
-      <module name="project-service (2)" target="11" />
       <module name="user-service (1)" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -28,14 +29,15 @@
       <module name="app-client-management" options="-parameters" />
       <module name="app-client-management (1)" options="-parameters" />
       <module name="app-domain-model" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="project-service (1)" options="-parameters" />
-      <module name="project-service (2)" options="-parameters" />
+      <module name="project-service (2)" options="" />
       <module name="task-service" options="-parameters" />
       <module name="ticketing-project-microservices" options="-parameters" />
-      <module name="user-service" options="-parameters" />
+      <module name="user-service" options="" />
       <module name="user-service (1)" options="-parameters" />
     </option>
   </component>
