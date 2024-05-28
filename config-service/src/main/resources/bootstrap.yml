@@ -10,7 +10,8 @@ spring:
           uri: https://github.com/MutluBilgee/ticketing-project-microservices-config-mb.git
           default-label: main
           username: MutluBilgee
-          password: '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'
+#          password: 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
+          password: '{chiper}7d554ddfe734fd29e6015a8f50c7114762cd2711b783f7ce0e4394cea5e2b789214d35adf174296880505171ee2b96244ee00152dae2d45a017a0a3ef39b3d81'
       fail-fast: true
 
 encrypt:
